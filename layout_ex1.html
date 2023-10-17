@@ -35,22 +35,47 @@
                 color:yellow;
             }
             main{
-                min-height: 80h;
-                background-color: rgb(80, 98, 105);
+                 min-height: 80h;
+                  /* background-color: rgb(80, 98, 105); */
+                 width: min(70ch,90%); */
+                margin-inline:auto; */
             }
             .Hero-hed{
                 font-size: 3rem;
                 line-height: 1;
                 margin-bottom: 1rem;
-                margin-left: 1rem;
+                margin-left: rem;
                 padding-top:1rem;
             }
             .hed{
                 font-family:'Times New Roman', Times, serif;
-                font-size: large;
+                font-size: 1.25rem;
                 margin-left: 1rem;
                 margin-bottom: 1rem;
             }
+            .text{
+                font-size: 1.25rem;
+                text-align: justify;
+                margin-bottom: 1rem;
+            }
+            .item-list > * {
+               list-style-image: url(static/images/arrow.png);
+               padding:.2rem 0rem;
+               margin-left: 1.5rem;
+               font-size: 1.5rem;
+               font-weight: bold;
+              }
+              .item-list{
+                margin-bottom: 1rem;
+              }
+              footer{
+                background-color: aqua;
+                display: flex;
+                padding: 1rem;
+                justify-content: center;
+                font-weight: bolder;
+              }
+            
         </style>
     </head>
     <body>
@@ -67,16 +92,16 @@
             <section>
                 <article>
                     <h1 class="Hero-hed">Welcome to layout in CSS</h1>
-                    <p style="margin-left:0.5rem;font-size:1.5rem;">
-                        Today we are going to see example of layout in CSS.
+                    <p class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro natus amet corporis iusto laboriosam, nemo voluptate modi ratione? Esse optio corrupti ut reprehenderit facere illum veritatis, quas aspernatur, nisi quia unde iusto nam ea quae minima laboriosam nesciunt, cumque culpa expedita provident praesentium. Ea, expedita nisi. Labore, tempore quae! Unde!
                     </p>
-                    <ul class="hed">
+                    <ul class="item-list">
                         <li>Grids</li>
                         <li>Flexbox</li>
                         <li>Mixing both togther</li>
                     </ul>
-                    <p style="font-size: x-large;">
-                        This is useful for simple layouts
+                    <p class="text">
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut officiis voluptatum magni nihil minus? Itaque ex nesciunt suscipit illo, atque molestiae iure dolores. Debitis cumque accusantium, odio ipsa, quaerat deleniti fugiat voluptates itaque et, voluptatem aliquid sit quo omnis! Exercitationem, iste? Delectus nesciunt veniam pariatur eos id veritatis magnam in.
                     </p>
                 </article>
             </section>
