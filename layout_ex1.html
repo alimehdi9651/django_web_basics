@@ -8,7 +8,7 @@
              *{
                 margin: 0;
                 padding: 0;
-                box-sizing: border-box;
+               box-sizing:border-box;
                 list-style: none;
              }
             html{
@@ -18,14 +18,9 @@
                 line-height: 1.5;
             }
             header{
-                background-color: rgb(13, 12, 12);
-                padding: 0.5rem;
+                background-color: rgb(8, 0, 0);
+                padding:0.5rem;
             }
-             nav{
-                
-           
-            }  
-           
             .nav-list{
                 display: flex;
                 justify-content: center;
@@ -41,18 +36,23 @@
             }
             main{
                 min-height: 80h;
-                background-color: rgb(0, 179, 255);
+                background-color: rgb(80, 98, 105);
             }
             .Hero-hed{
-                font-size: 4rem;
-                line-height: 1.1;
-                margin-bottom: 5rem;
+                font-size: 3rem;
+                line-height: 1;
+                margin-bottom: 1rem;
                 margin-left: 1rem;
-                padding-top:5rem;
+                padding-top:1rem;
+            }
+            .hed{
+                font-family:'Times New Roman', Times, serif;
+                font-size: large;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
             }
         </style>
     </head>
-
     <body>
         <header>
             <nav>
@@ -67,21 +67,21 @@
             <section>
                 <article>
                     <h1 class="Hero-hed">Welcome to layout in CSS</h1>
-                    <p>
+                    <p style="margin-left:0.5rem;font-size:1.5rem;">
                         Today we are going to see example of layout in CSS.
                     </p>
-                    <ul>
+                    <ul class="hed">
                         <li>Grids</li>
                         <li>Flexbox</li>
                         <li>Mixing both togther</li>
                     </ul>
-                    <p>
+                    <p style="font-size: x-large;">
                         This is useful for simple layouts
                     </p>
                 </article>
             </section>
         </main>
-        <footer>
+        <footer style="color: rgba(1, 2, 8, 0.93);">
             &copy;Digipodium 2023 - All rights reserved
         </footer>
     </body>
