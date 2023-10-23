@@ -60,12 +60,14 @@
             display: flex;
             flex-direction: column;
             justify-content:end;
+            background-color: aqua;
         }
         .btn-wrapper{
             display: flex;
             flex-direction: column;
            flex-grow: 1;
-           justify-content: flex-end;
+           background-color: rgb(255, 0, 200);
+           justify-content: end;
         }
 
         .hero {
@@ -165,20 +167,44 @@
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center; 
-            height: 80vh;   
+            height: 500px; 
        }
-       .W4{
+       .I3{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 5rem;
+       
+       }
+       .bo{
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            justify-content: center;
+            background-color:aqua;
+       }
+       .A1{
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
+        color: #7d0ea9;
+        background-color:;
+       }
+       .P1{
         display: flex;
         flex-grow: 2;
-        background-color: aqua;
-        justify-content: ;
-        font-size: 2rem;
-        height:70vh ;
+        font-size: 1.2rem;
+        flex-direction: column;
+        margin-top:5rem;
+      
        }
-       .W5{
-
+       .p2{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        font-size: 1.2rem;
        }
-
     </style>
 </head>
 
@@ -216,8 +242,8 @@
                     <p>
                         Our mobile app is built to seek, forge, and grow links between you,<br>
                          people you know, and people you want to know. With multiple startups <br>
-                          under our belt, the team behind Kinnectric is working hard to bring you <br>
-                           the only social app you will ever need.
+                         under our belt, the team behind Kinnectric is working hard to bring you <br>
+                        the only social app you will ever need.
    
                     </p>
                 </div>
@@ -235,21 +261,29 @@
             </div>
         </section>
         <section>
-            <div class="Q3">
+           <div class="Q3">
                 <div class="I3">
-                    <img style="height: 500px;width: 560px; border-radius: 5rem;object-fit: cover;" src="static/images/img3.jpg" alt="image3">
-                </div>
+                    <img style="border-radius: 5rem;height: 500px;object-fit: cover;width: 550px;" src="static/images/img3.jpg" alt="img3">
+                </div> 
                 <div class="bo">
-                     <div class="W4"><h1 > Keep in Touch</h1>
-                     </div>
-                     <div class="W5"><p>Kinnectric's messaging system replaces text,
-                        call, and voicemail.</p></div>
-                     <p>
-                        Our built-in forums will change the way you handle group interests and discussions.
-                     </p>
+                <div>
+                    <h1 class="A1">
+                        Keep in Touch
+                    </h1>
+                </div>       
+                <div class="no">
+                    <p class="P1" style="margin-top: 25rem;">
+                        Kinnectric's messaging system replace text, <br> call, and voicemail.
+                    </p>
                 </div>
-                
-            </div>
+                <div>
+                    <p class="p2">
+                        Our built-in formus will chang theway you <br> handle group interests and discussion.
+
+                    </p>
+                </div>
+            </div> 
+           </div>
         </section>
         <section></section>
         <section></section>
